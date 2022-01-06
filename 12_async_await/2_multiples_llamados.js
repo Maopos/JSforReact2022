@@ -18,6 +18,7 @@ const myFunction = async () => {
 
 myFunction();
 
+
 const myFunction2 = async () => {
   const inicio = performance.now();
   const [resp1, resp2] = await Promise.all([fetch(url1), fetch(url2)]);
