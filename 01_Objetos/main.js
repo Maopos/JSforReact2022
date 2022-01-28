@@ -25,3 +25,4 @@ const nuevoObj = {
 };
 
 console.log(nuevoObj);
+     

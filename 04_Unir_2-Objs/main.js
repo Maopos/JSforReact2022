@@ -14,7 +14,8 @@ const nuevoObj = {
   tienda: { ...tienda },
 };
 
-console.log(nuevoObj);
 
 console.log(animal);
 console.log(tienda);
+
+console.log(nuevoObj);

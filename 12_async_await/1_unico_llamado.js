@@ -4,15 +4,15 @@ const myFuncion = () => {
   fetch(url)
     .then((res) => res.json())
     .then((result) => {
-      console.log(result);
+      console.log(result, 'then');
     });
 };
-//myFuncion();
+myFuncion();
 
 const myAsyncFuncion = async () => {
   const res = await fetch(url);
   const result = await res.json();
 
-  console.log(result);
+  console.log(result, 'asyn - await');
 };
 myAsyncFuncion();
